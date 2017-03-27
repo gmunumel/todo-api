@@ -22,4 +22,6 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
-# todo-api
+# todo-api app
+
+Based on tutorial: https://scotch.io/tutorials/build-a-restful-json-api-with-rails-5-part-one
