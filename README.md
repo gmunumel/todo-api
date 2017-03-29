@@ -27,3 +27,4 @@ Things you may want to cover:
 Based on tutorials: 
 * https://scotch.io/tutorials/build-a-restful-json-api-with-rails-5-part-one
 * https://launchschool.com/blog/handling-emails-in-rails
+* https://blog.lucascaton.com.br/2010/10/25/how-to-test-mailers-in-rails-3-with-rspec/

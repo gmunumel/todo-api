@@ -56,4 +56,10 @@ Rails.application.configure do
       authentication: 'plain',
       enable_starttls_auto: true
   }
+
+
+  # Adds additional error checking when serving assets at runtime.
+  # Checks for improperly declared sprockets dependencies.
+  # Raises helpful error messages.
+  config.assets.raise_runtime_errors = true
 end

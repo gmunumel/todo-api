@@ -49,3 +49,11 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# Use SCSS for stylesheets
+gem 'sass-rails'
+# Use Uglifier as compressor for JavaScript assets
+gem 'uglifier'
+# Use CoffeeScript for .coffee assets and views
+gem 'coffee-rails'
+gem 'coffee-script-source'

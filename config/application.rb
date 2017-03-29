@@ -26,8 +26,8 @@ module TodosApi
     # Middleware like session, flash, cookies can be added back manually.
     # Skip views, helpers and assets when generating a new resource.
     config.api_only = true
+
+    # define assest host to tell the mail where to look for resources
+    config.action_mailer.asset_host = 'http://example.com'
   end
 end
-
-
-
