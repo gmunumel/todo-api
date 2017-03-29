@@ -24,4 +24,6 @@ Things you may want to cover:
 * ...
 # todo-api app
 
-Based on tutorial: https://scotch.io/tutorials/build-a-restful-json-api-with-rails-5-part-one
+Based on tutorials: 
+* https://scotch.io/tutorials/build-a-restful-json-api-with-rails-5-part-one
+* https://launchschool.com/blog/handling-emails-in-rails
