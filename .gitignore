@@ -25,3 +25,6 @@
 
 .idea/inspectionProfiles/
 vendor/
+
+Ignore git files
+.git
