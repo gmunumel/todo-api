@@ -57,3 +57,9 @@ gem 'uglifier'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails'
 gem 'coffee-script-source'
+
+# Add security to the app
+gem 'bcrypt', '~> 3.1.7'
+
+# Add library for JSON Web tokens
+gem 'jwt'

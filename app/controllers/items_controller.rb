@@ -1,6 +1,4 @@
-class ItemsController < ActionController::API
-  include Response
-  include ExceptionHandler
+class ItemsController < ApplicationController
 
   before_action :set_todo
   before_action :set_todo_item, only: [:show, :update, :destroy]
@@ -10,15 +8,17 @@ class ItemsController < ActionController::API
     json_response(@todo.items)
   end
 
+  # POST /todos/:todo_id/items
+  def create
+    # create items belonging to current user
+    #@todos = current_user.todos
+    @todo.items.create!(item_params)
+    json_response(@todos, :created)
+  end
+
   # GET /todos/:todo_id/items/:id
   def show
     json_response(@item)
-  end
-
-  # POST /todos/:todo_id/items
-  def create
-    @todo.items.create!(item_params)
-    json_response(@todo, :created)
   end
 
   # PUT /todos/:todo_id/items/:id

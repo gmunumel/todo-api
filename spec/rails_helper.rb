@@ -79,7 +79,9 @@ RSpec.configure do |config|
   end
 
   # added my spec support helper
-  config.include RequestSpecHelper, type: :request
+  #config.include RequestSpecHelper, type: :request
+  config.include RequestSpecHelper
+  config.include ControllerSpecHelper
 end
 
 # configure shoulda matchers to use rspec as the test framework and full matcher libraries for rails

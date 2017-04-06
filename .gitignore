@@ -27,4 +27,4 @@
 vendor/
 
 Ignore git files
-.git
+.git/
